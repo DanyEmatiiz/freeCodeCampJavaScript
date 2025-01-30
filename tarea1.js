@@ -1,6 +1,6 @@
-/*
-// Ejemplos de variables mal definidas en JavaScript
 
+// Ejemplos de variables mal definidas en JavaScript
+/*
 var 123abc = "hello";  var abc123 = "hello"
 var my variable = 10;  var MyVariable = 10
 let @name = "John";   let name = "john"
@@ -11,7 +11,7 @@ const user-name = "Alice"; const user_name = "alice"
 var !city = "Tokyo";  var city = "tokyo"
 let %discount = 5; let discount = 5
 const color# = "red"; const color = "red"
-var home address = "123 Main St"; var HomeAdress "123 main st"
+var home address = "123 Main St"; var HomeAdress = "123 main st"
 let new-user = true;  let new_user = "true"
 const float$number = 3.14;  const float$nomber = 3.14
 var *price = 100; var price = 100
@@ -21,5 +21,5 @@ var user name = "Alice"; var UserName = "alice"
 let !isActive = true; let IsActive = "true"
 const value% = 42; const value = 42 
 var $totalAmount = 500;var $totalAlmount = 500
-
 */
+
