@@ -13,7 +13,7 @@ actualiza la variable de la vida del guerro, quitando el ataque del monstruo a l
 
 Crea una variable que tenga una concatenación de texto que diga que al guerrero que lo van a atacar y muestre sus puntos de vida ej "[nombre guerrero] lo atacaron y perdio [tanto punto] y ahora tiene [puntos de vida] puntos".
 
-Crea una variable que contenga los puntos de vida multiplicados x 14.
+actuliza la variable que contenga los puntos de vida multiplicados x 14.
 
-Crea una variable que contenga los puntos de vida después de ser envenenado y perder dos veces la mitad de sus puntos de vida.
+actualiza la variable que contenga los puntos de vida después de ser envenenado y perder dos veces la mitad de sus puntos de vida.
 */
