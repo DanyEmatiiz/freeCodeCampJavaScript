@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego</title>
+</head>
+<body>
+    <main>
+        <div class="cotter">
+            <div class="gif1">
+                <img src="videos/video-de-cotter.gif" type="video/gif">
+            </div>
+        </div>
+        <div class="robot">
+            <div class="gif2">
+                <img src="videos/video-del-robot.gif" type="video/gif">
+            </div>
+        </div>
+    </main>
+    <button id="mybutton">haz clic aqui</button>
+    <script>
+        let warName = "cotter"
+        let liveCotter = 100
+        let robotDamage = -10
+        let robotPoison = liveCotter/=2
+
+        liveCotter += robotDamage
+        const text =  warName + "fue atacado y perdio" + robotDamage + "ahora tiene" + liveCotter;
+        liveCotter *=14
+        robotPoison += liveCotter
+        robotPoison += liveCotter
+    </script>
+</body>
+<style>
+    body{
+        display: flex;
+        background-image: url(imagenes/arena.png);
+        margin: 0%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    main{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cotter{
+        display: flex;
+
+    }
+    .gif1{
+        content: url(videos/video-de-cotter.gif);
+        width: 200px;
+        height: 300px;
+        margin: 0%
+    }
+    .robot{
+        top: 900px;
+        display: flex;
+    
+        
+
+    }
+    .gif2{
+        content: url(videos/video-del-robot.gif);
+        width: 200px;
+        height: 300px;
+        background-size: cover;
+        background-position: bottom;
+    }
+</style>
+</html>
