@@ -18,17 +18,17 @@ actuliza la variable que contenga los puntos de vida multiplicados x 14.
 actualiza la variable que contenga los puntos de vida después de ser envenenado y perder dos veces la mitad de sus puntos de vida.
 */
 /*valores*/
-let warName = cotter
+let warName = "cotter"
 let liveCotter = 100
 let robotDamage = -10
 let robotPoison = liveCotter/=2
 /*acciones*/
 /* robot golpea a cotter */
 liveCotter += robotDamage /*90*/
-const text =  "cotter" + "fue atacado y perdio" + "-10 puntos de vida" + "ahora tiene 90 puntos de vida"
+const text =  warName + "fue atacado y perdio" + robotDamage + "ahora tiene" + liveCotter;
 liveCotter *=14 /*1260*/
 robotPoison += liveCotter
-robotPoison += liveCotter
+robotPoison += liveCotter 
 
 
 
