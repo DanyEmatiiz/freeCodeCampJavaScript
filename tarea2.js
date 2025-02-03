@@ -28,7 +28,7 @@ liveCotter += robotDamage /*90*/
 const text =  warName + "fue atacado y perdio" + robotDamage + "ahora tiene" + liveCotter;
 liveCotter *=14 /*1260*/
 robotPoison += liveCotter
-robotPoison += liveCotter 
+robotPoison += liveCotter
 
 
 
